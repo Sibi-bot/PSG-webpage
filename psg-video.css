@@ -1,0 +1,159 @@
+.psg-video{
+    position: relative;
+  }
+
+  .in-text-video-1{
+    font-family: "Open Sans", sans-serif, Arial;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    width: 410px;
+    top: 40%;
+    left: 25%;
+    transform: translateX(-50%) translateY(100%); /* Initially position text off-screen (below) */
+    color: #ffad18;
+    font-size: 50px;
+    padding: 0px 0px 30px 0px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds shadow for better visibility */
+    animation: slideUp 8s infinite; /* Apply the fade animation */
+  }
+
+    /* Keyframes for fade in and fade out */
+    @keyframes slideUp {
+  0% {
+    transform: translateX(-50%) translateY(100%); /* Start off-screen below */
+  }
+  50% {
+    transform: translateX(-50%) translateY(0); /* Slide up to final position */
+  }
+  100% {
+    transform: translateX(-50%) translateY(0); /* Move to the final position */
+  }
+  }
+  .my-name{
+    margin: 0px 0px 0px 0px
+  }
+
+  .in-text-video-2{
+    font-family: "Open Sans", sans-serif, Arial;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    width: 410px;
+    top: 40%;
+    left: 25%;
+    transform: translateX(-50%) translateY(100%); /* Initially position text off-screen (below) */
+    color: #ffad18;
+    font-size: 50px;
+    padding: 90px 0px 50px 0px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds shadow for better visibility */
+    animation: slideUp 8s infinite; /* Apply the fade animation */
+  }
+
+    /* Keyframes for fade in and fade out */
+    @keyframes slideUp {
+  0% {
+    transform: translateX(-50%) translateY(100%); /* Start off-screen below */
+  }
+  50% {
+    transform: translateX(-50%) translateY(0); /* Slide up to final position */
+  }
+  100% {
+    transform: translateX(-50%) translateY(0); /* Move to the final position */
+  }
+  }
+  .my-name{
+    margin: 0px 0px 0px 0px
+  }
+
+  .in-text-video-3{
+    text-align: justify;
+    font-family: "Open Sans", sans-serif, Arial;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    width: 410px;
+    top: 50%;
+    left: 25%;
+    transform: translateX(-50%) translateY(100%); /* Initially position text off-screen (below) */
+    color: white;
+    font-size: 35px;
+    padding: 80px 0px 0px 0px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds shadow for better visibility */
+    animation: slideUp 8s infinite; /* Apply the fade animation */
+  }
+
+    /* Keyframes for fade in and fade out */
+  @keyframes slideUp {
+  0% {
+    transform: translateX(-50%) translateY(100%); /* Start off-screen below */
+  }
+  50% {
+    transform: translateX(-50%) translateY(0); /* Slide up to final position */
+  }
+  100% {
+    transform: translateX(-50%) translateY(0); /* Move to the final position */
+  }
+  }
+  .my-name{
+    margin: 0px 0px 0px 0px
+  }
+
+  .vertical-line {
+    position: absolute;
+    top: 35%;
+    left: 50%; /* Position at the center horizontally */
+    width: 2px; /* Thickness of the line */
+    height: 400px; /* Full height of the video */
+    background-color: #ffad18; /* Color of the line */
+    z-index: 2; /* Ensures it appears on top of the video */
+
+  }
+
+
+
+  .in-text-video-4 {
+    position: absolute;
+    top: 45%; /* Vertically center the text */
+    left: 78%;
+    transform: translateY(-50%); /* Adjust for perfect centering */
+    white-space: nowrap; /* Prevent text wrapping */
+    font-size: 2rem;
+    font-weight: 300;
+    color: white;
+    text-shadow: 2px 2px 5px black; /* Add shadow for better visibility */
+    animation: slideIn 8s linear infinite; /* Animation settings */
+    padding: 0px 0px 0px 0px;
+  }
+
+  /* Keyframes for sliding text from right to left */
+  @keyframes slideIn {
+    0% {
+      transform: translateX(50%); /* Start off-screen on the right */
+    }
+    50% {
+    transform: translateX(-50%) ; /* Slide up to final position */
+  }
+    100% {
+      transform: translateX(-50%); /* Move off-screen to the left */
+    }
+  }
+
+  .grid-1{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    font-family: "Open Sans", sans-serif, Arial;
+    font-size: 25px;
+  }
+
+  .grid{
+    display: inline-block;
+    margin: 0 0 0 0;
+  }
+
+  .num{
+    color: #ffad18;
+    font-size: 25px;
+    padding-bottom: 50px;
+  }

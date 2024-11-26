@@ -1,0 +1,78 @@
+.scrollable-container {
+    font-family: "Open Sans", sans-serif, Arial;
+    margin: 0px 0px 0px 100px;
+    width: 600px;
+    height: 300px;
+    overflow: auto; /* Enables scrolling */
+    border: 1px solid black;
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+
+.announcements{
+    font-family: "Open Sans", sans-serif, Arial;
+    margin: 25px 0px 15px 100px;
+    color: rgb(9, 67, 160);
+    display: inline-block;
+
+
+}
+
+.a-1-dash{
+    height: 1px;
+    background-color: #949494; 
+    width: 100%; 
+    margin: 10px auto; 
+}
+
+.a-2-dash{
+    height: 0.5px;
+    background-color: #949494; 
+    width: 100%; 
+    margin: 10px auto; 
+}
+
+.midel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+
+}
+
+.a-body{
+    margin: 5px 0px 0px 0px;
+}
+
+.aa-body{
+    color: rgb(9, 67, 160);
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.n-conference{
+    color: gray;
+    line-height: 10px;
+    margin: 0px 0px 0px 0px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+.n-conference:hover{
+    color: #f44336;
+    
+}
+
+.event-date {
+    font-size: 13px;
+    color: #424242;
+    display: flex;
+    align-items: center;
+    margin: 8px 0px 0px 0px;
+}
+.event-date i {
+    margin-right: 5px;
+    color: #f44336;
+}
