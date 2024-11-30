@@ -1,0 +1,154 @@
+.event-2{
+    font-family: "Open Sans", sans-serif, Arial;
+    margin: 50px 0px 15px 100px;
+    color: rgb(9, 67, 160);
+    display: inline-block;
+
+}
+
+.midel-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    margin-left: 80px ;
+
+}
+
+.more{
+    font-family: "Open Sans", sans-serif, Arial;
+    background-color: rgb(255, 173, 24);
+    color: white;
+    padding: 3px 15px 3px 15px;
+    font-weight: 800;
+    border-color: transparent;
+    margin: 55px 0px 0px 485px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.more:hover{
+    background-color: #0f2d58;
+}
+
+.midel-img{
+    width: 1200px;
+    margin: 20px 0px 0px 180px;
+}
+
+.midel-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    margin-left: 80px;
+
+}
+
+.ticket-1{
+    font-family: "Open Sans", sans-serif, Arial;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    margin: 55px 0px 0px 100px;
+    border-radius: 5px;
+}
+
+.ticket-1-1{
+    color: white;
+    background-color: rgb(255, 173, 24);
+    display: inline-block;   
+    position: relative;
+}
+
+.ticket-1-1-1{
+    margin: 32px 0px 0px 0px;
+    padding: 15px 20px 180px 20px;
+    font-size: 13px;
+}
+
+.ticket-1-1-2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ticket-1-2{
+    display: inline-flex;
+    margin: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+}
+
+.ticket-1-2-1{
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(9, 67, 160);
+    color: white;
+    border-radius: 100px;
+    padding: 4px 12px 4px 12px;
+    font-size: 12px;
+    margin: 0px 0px 0px 0px;
+    top: -60px;
+    left: 8px;
+
+}
+
+.ticket-1-2-2{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 600;
+    width: 450px;
+    top: -25px;
+    left: 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+.ticket-1-2-2-1{
+    margin: 0px 0px 0px 0px;
+    font-family: 'Montserrat';
+}
+
+.ticket-1-2-3{
+    position: absolute;
+    top: 65px;
+    left: 5px;
+    color: gray;
+    opacity: 0.3;
+}
+
+.vertical-line-2 {
+    top: 70px;
+    left: 5px; /* Position at the center horizontally */
+    width: 2px; /* Thickness of the line */
+    height: 50px; /* Full height of the video */
+    background-color: grey; /* Color of the line */
+    z-index: 2; /* Ensures it appears on top of the video */
+  }
+
+  .ticket-1-2-4{
+    position: absolute;
+    color: gray;
+    opacity: 0.85;
+    display: inline-block;
+    top: 68px;
+    left: 25px;
+    
+  }
+
+  .ticket-2{
+    font-family: "Open Sans", sans-serif, Arial;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    margin: 55px 140px 0px 0px;
+    border-radius: 5px;
+  }
+
+  .ticket-2-2-4{
+    position: absolute;
+    color: gray;
+    opacity: 0.85;
+    display: inline-block;
+    top: 68px;
+    left: 25px;
+    width: 300px;
+    
+  }
+
+  

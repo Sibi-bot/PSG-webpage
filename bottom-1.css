@@ -1,0 +1,118 @@
+.bottom{
+    background-color: white;
+}
+
+.bottom-1{
+    background-color: white;
+    margin: 100px 0px 0px 0px;
+}
+
+.bottom-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    vertical-align: top;
+}
+
+.psg-75{
+    display:inline-block;
+    width: 150px;
+    height: 100px;
+    margin: 0px 0px 0px 90px;
+}
+
+.psg-nirf{
+    display:inline-block;
+    width: 230px;
+    height: 100px;
+    margin: 0px 0px 0px 90px;
+}
+
+.psg-naac{
+    display:inline-block;
+    width: 150px;
+    height: 100px;
+    margin: 0px 0px 0px 90px;
+}
+
+.psg-iso{
+    display:inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 0px 0px 0px 90px;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+    padding: 0px 0px 0px 36%;
+}
+
+.header .line {
+    height: 1.55px;
+    width: 100px;
+    background-color: rgb(255, 173, 24);
+    margin: 0 10px;
+
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #0047ab; /* A shade of blue */
+    font-weight: 500;
+    margin: 0;
+}
+
+.bottom-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    vertical-align: top;
+    row-gap: 0;
+    column-gap: 0;
+    margin: 50px 170px 0px 170px;
+}
+
+.bottom-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    vertical-align: top;
+    row-gap: 0;
+    column-gap: 0;
+    margin: 50px 190px 0px 190px;
+}
+
+.header-2-1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+    padding: 0px 0px 0px 34%;
+}
+
+.header-2-1 .line {
+    height: 1.55px;
+    width: 100px;
+    background-color: rgb(255, 173, 24);
+    margin: 0 10px;
+
+}
+
+.header-2-1 h1 {
+    font-size: 24px;
+    color: #0047ab; /* A shade of blue */
+    font-weight: 500;
+    margin: 0;
+}
+
+.bottom-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    vertical-align: top;
+    row-gap: 0;
+    column-gap: 0;
+    margin: 50px 360px 0px 360px;
+    padding: 0px 0px 70px 0px;
+}
+
